@@ -6,7 +6,7 @@ Os exercícios estão divididos por módulos:
 
 * [x] **01-estrutura-sequencial:** 
 * [x] **02-estrutura-condicional:** 
-* [ ] **03-estruturas-repetitivas:** 
+* [x] **03-estruturas-repetitivas:** 
 
 ## 🛠️ Ferramentas
 * Sistema: Linux Mint
