@@ -17,9 +17,7 @@ programa {
 		inteiro n, quantidade, total = 0, totalratos = 0, totalcoelhos = 0, totalsapos= 0
 		real pr = 0.0, ps = 0.0, pc = 0.0
 		cadeia tipo
-		//"n" quantas vezes sera repetida no para, "C" cobaias, "c" coelho, "s" sapo, "r" rato 
-		//total, 
-
+		 
 		escreva("Quantos casos de testes serão digitados: ")
 		leia(n)
 
@@ -60,7 +58,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 0; 
+ * @POSICAO-CURSOR = 1322; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
