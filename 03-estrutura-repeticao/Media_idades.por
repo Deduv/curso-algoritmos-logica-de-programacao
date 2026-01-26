@@ -4,10 +4,11 @@ indivíduo. O último dado, que não entrará nos cálculos, contém um valor de
 e imprimir a idade média deste grupo de indivíduos. Se for entrado um valor negativo na primeira vez,
 mostrar a mensagem "IMPOSSIVEL CALCULAR".*/
 
-programa {
+
+programa {
 inclua biblioteca Matematica --> mat
 	
-	funcao inicio() { 
+	funcao inicio () {
 		inteiro idade, contagem = 0
 		real mediadasidades = 0.0, somadasidades = 0.0
 	
@@ -33,7 +34,7 @@ mediadasidades = somadasidades / contagem
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 846; 
+ * @POSICAO-CURSOR = 435; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

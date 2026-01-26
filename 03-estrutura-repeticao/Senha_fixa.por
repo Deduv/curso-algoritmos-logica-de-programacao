@@ -4,10 +4,10 @@ senha incorreta informada, escrever a mensagem "Senha Invalida! Tente novamente:
 for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo
 encerrado. Considere que a senha correta é o valor 2002.*/ 
 
-programa {
+programa {
  
 	
-	funcao inicio(){
+	funcao inicio() {
 	inteiro senha, senhac = 2002
 		escreva("Digite a senha \n")
 		leia(senha)
@@ -24,7 +24,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 637; 
+ * @POSICAO-CURSOR = 427; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

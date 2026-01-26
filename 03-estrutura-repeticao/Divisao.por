@@ -5,7 +5,8 @@ segundo. Caso não for possível, mostre a mensagem “DIVISAO IMPOSSIVEL”.*/
 
 
 programa {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
+	
 	funcao inicio () {
 	real a, b, c, d 
 		escreva("Quantos casos voce vai digitar? ")
@@ -31,7 +32,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 705; 
+ * @POSICAO-CURSOR = 266; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
