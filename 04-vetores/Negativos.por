@@ -9,24 +9,30 @@ programa {
 		inteiro vetor[10]
 		inteiro n, i
 
-		escreva("Quantos números serão digitados? ")
-		leia(n)
+		
+		faca { 			
+		      escreva("Quantos números serão digitados? (max. 10)\n")
+		      leia(n)	
+		      se (n > 10 ou n <= 0) {
+		      	escreva("Erro! Máximo 10.\n")			
+		      }
+		} enquanto (n > 10 ou n <= 0)
 
 		para (i = 0; i < n; i ++) {
 			escreva("Digite um número: ")
-			leia(vetor[i])
-			
+			leia(vetor[i]) 
 		}
 
 		escreva("NÚMEROS NEGATIVOS: \n")
 
-		para (i = 0; i <= n; i++) {
+		para (i = 0; i < n; i++) {
 			se (vetor[i] < 0) {
-				escreva(vetor[i], "\n")
+				escreva(vetor[i], "  ")
 			}
 		}
-		
 	}
+
+	
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -34,9 +40,9 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 565; 
+ * @POSICAO-CURSOR = 717; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {vetor, 9, 10, 5};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
