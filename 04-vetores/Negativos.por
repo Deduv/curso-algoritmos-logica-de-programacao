@@ -14,7 +14,7 @@ programa {
 		      escreva("Quantos números serão digitados? (max. 10)\n")
 		      leia(n)	
 		      se (n > 10 ou n <= 0) {
-		      	escreva("Erro! Máximo 10.\n")			
+		      	escreva("Erro! Valor inválido.\n")			
 		      }
 		} enquanto (n > 10 ou n <= 0)
 
@@ -40,7 +40,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 717; 
+ * @POSICAO-CURSOR = 450; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
