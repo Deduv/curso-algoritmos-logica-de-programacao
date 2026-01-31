@@ -43,7 +43,7 @@ programa {
 
 			se (percentual < 10) {
 				abaixo_10++
-			} senao se (percentual <= 10 e percentual <= 20) {
+			} senao se (percentual <= 20) {
 				entre_10_20++
 			} senao {
 				acima_20++
@@ -70,7 +70,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1908; 
+ * @POSICAO-CURSOR = 1299; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
