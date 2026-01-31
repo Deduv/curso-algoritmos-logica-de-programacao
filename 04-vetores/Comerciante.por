@@ -15,10 +15,49 @@ programa {
 	inclua biblioteca Matematica --> mat
 	funcao inicio () {
 		inteiro n, i
-		inteiro abaixo_10 = 0, entre_10_20 = 0, acima_20 = 0,
-		cadeia nomes {100]
+		inteiro abaixo_10 = 0, entre_10_20 = 0, acima_20 = 0
+		cadeia nomes [100]
 		real compra[100], venda [100]
 		real lucro, percentual = 0.0, total_lucro = 0.0, total_venda = 0.0, total_compra = 0.0
+
+		escreva("Serao digitados dados de quantos produtos? ")
+		leia(n)
+
+		para (i = 0; i < n; i ++) {
+			escreva ("Produto ", i + 1, ": \n")
+			escreva ("Nome: \n")
+			leia(nomes[i])
+			escreva ("Preco da compra: \n")
+			leia(compra[i])
+			escreva ("Preco da venda: \n")
+			leia(venda[i])
+			limpa()
+		}
+
+		para (i = 0; i < n; i ++) {
+			total_compra += compra[i]
+			total_venda += venda[i]
+
+			lucro = venda[i] - compra[i]
+			percentual = (lucro / compra[i]) * 100
+
+			se (percentual < 10) {
+				abaixo_10++
+			} senao se (percentual > 10 e percentual < 20) {
+				entre_10_20++
+			} senao {
+				acima_20++
+				
+			}
+		}
+
+		escreva ("RELATORIO: \n")
+          escreva ("Lucro abaixo de 10%: ", abaixo_10, "\n")
+          escreva ("Lucro entre 10% e 20%: ",entre_10_20, "\n") 
+          escreva ("Lucro acima de 20%: ", abaixo_10, "\n")
+          escreva ("Valor total de compra: ", abaixo_10, "\n")
+          escreva ("Valor total de venda: ", abaixo_10, "\n")
+          escreva ("Lucro total: ", abaixo_10, "\n")
 		
 		
 	}
@@ -29,7 +68,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 784; 
+ * @POSICAO-CURSOR = 1548; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
