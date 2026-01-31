@@ -25,11 +25,11 @@ programa {
 
 		para (i = 0; i < n; i ++) {
 			escreva ("Produto ", i + 1, ": \n")
-			escreva ("Nome: \n")
+			escreva ("Nome: ")
 			leia(nomes[i])
-			escreva ("Preco da compra: \n")
+			escreva ("Preco da compra: ")
 			leia(compra[i])
-			escreva ("Preco da venda: \n")
+			escreva ("Preco da venda: ")
 			leia(venda[i])
 			limpa()
 		}
@@ -43,7 +43,7 @@ programa {
 
 			se (percentual < 10) {
 				abaixo_10++
-			} senao se (percentual > 10 e percentual < 20) {
+			} senao se (percentual <= 10 e percentual <= 20) {
 				entre_10_20++
 			} senao {
 				acima_20++
@@ -51,13 +51,15 @@ programa {
 			}
 		}
 
+		total_lucro = total_venda - total_compra
+
 		escreva ("RELATORIO: \n")
           escreva ("Lucro abaixo de 10%: ", abaixo_10, "\n")
           escreva ("Lucro entre 10% e 20%: ",entre_10_20, "\n") 
-          escreva ("Lucro acima de 20%: ", abaixo_10, "\n")
-          escreva ("Valor total de compra: ", abaixo_10, "\n")
-          escreva ("Valor total de venda: ", abaixo_10, "\n")
-          escreva ("Lucro total: ", abaixo_10, "\n")
+          escreva ("Lucro acima de 20%: ", acima_20, "\n")
+          escreva ("Valor total de compra: ", mat.arredondar(total_compra,2), "\n")
+          escreva ("Valor total de venda: ", mat.arredondar(total_venda, 2), "\n")
+          escreva ("Lucro total: ", mat.arredondar(total_lucro, 2), "\n")
 		
 		
 	}
@@ -68,7 +70,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1548; 
+ * @POSICAO-CURSOR = 1908; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
