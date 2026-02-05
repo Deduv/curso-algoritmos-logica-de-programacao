@@ -10,7 +10,7 @@ Repositório para organizar meus estudos e exercícios de lógica de programaç�
 - [x] 4. Estruturas Repetitivas
 - [x] 5. Vetores
 - [x] 6. Matrizes (Módulo concluído! 🏆)
-- [x] 7. Linguagem C (Próxima parada 🚀)
+- [ ] 7. Linguagem C (Próxima parada 🚀)
 - [ ] 8. Linguagem C++
 - [ ] 9. Linguagem Java
 - [ ] 10. Linguagem C#
