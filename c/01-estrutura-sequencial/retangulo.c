@@ -13,7 +13,7 @@ int main () {
     
     area = base * height;
     perimeter = (base * 2.0) + (height * 2.0); 
-    diagonal = sqrt(base * base + height * height);
+    diagonal = sqrt(pow(base, 2.0) + (height, 2.0));
     
     printf("AREA DO RETANGULO = %.4lf", area);
     printf("\nPERIMETRO DO RETANGULO = %.4lf", perimeter);
