@@ -1,0 +1,12 @@
+
+*
+
+!*/
+!*.c
+!*.por
+!*.md
+!.gitignore
+
+
+.vscode/
+**/.vscode/
