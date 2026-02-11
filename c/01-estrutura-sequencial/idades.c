@@ -1,4 +1,16 @@
 #include <stdio.h> 
+#include <string.h>
+
+void read_text(char * buffer, int lenght) {
+    fgets(buffer, lenght, stdin);
+    strtok(buffer, "\n");
+}
+
+void input_cleanup () {
+    char c;
+    while ((c = getchar()) != '\n' && c != EOF) { }
+}
+
 int main () {
     int age1, age2;
     double media;
@@ -6,13 +18,16 @@ int main () {
     
     printf("Dados da primeira pessoa: \n");
     printf("Nome: ");
-    scanf("%s", name1);
+    read_text(name1, 50);
+    
     printf("Idade: ");
     scanf("%d", &age1);
 
     printf("Dados da segunda pessoa: \n");
     printf("Nome: ");
-    scanf("%s", name2);
+    input_cleanup();
+    read_text(name2, 50);
+    
     printf("Idade: ");
     scanf("%d", &age2);
 
