@@ -6,5 +6,27 @@ apenas NULO.*/
 
 #include <stdio.h> 
 int main () {
+    int n, x;
+
+    printf("Quantos numeros voce vai digitar? ");
+    scanf("%d", &n);
+
+    for(int i = 1; i <= n; i++) {
+        printf("Digite um numero: ");
+        scanf("%d", &x);
+
+        if(x > 0 && x % 2 == 0) {
+            printf("PAR POSITIVO\n");
+        } else if(x < 0 && x % 2 != 0) {
+            printf("IMPAR NEGATIVO\n");
+        } else if (x > 0 && x % 2 != 0) {
+            printf("IMPAR POSITIVO\n");
+        } else if (x == 0) {
+            printf("NULO\n");
+        } else {
+            printf("PAR NEGATIVO\n");
+        }
+ 
+    }
     return 0;
 }
