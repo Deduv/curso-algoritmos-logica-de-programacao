@@ -10,6 +10,14 @@ int main () {
     scanf("%d", &m);
     printf("Qual a quantidade de colunas da matriz? ");
     scanf("%d", &n);
+
+    if(m > 10) {
+        m = 10;
+    }
+
+     if(n > 10) {
+        n = 10;
+    }
     
     for(int i = 0; i < m; i++) {
         for(int j = 0; j < n; j++) {
