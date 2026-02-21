@@ -18,7 +18,7 @@ int main() {
     cout << "Terceiro valor: ";
     cin >> c;
 
-    // A sua lógica de comparação foi mantida pois está correta
+    
     if (a <= b && a <= c) {
         cout << "MENOR = " << a << endl;
     } else if (b <= c) {

@@ -1,12 +1,18 @@
 
 *
-
 !*/
 !*.c
+!*.cpp
+!*.py
+!*.cs
+!*.java
 !*.por
 !*.md
-!.gitignore
-
+!*.gitignore
 
 .vscode/
 **/.vscode/
+bin/
+obj/
+*.class
+
