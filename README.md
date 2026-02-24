@@ -11,10 +11,10 @@ Repositório para organizar meus estudos e exercícios de lógica de programaç�
 - [x] 5. Vetores
 - [x] 6. Matrizes 
 - [x] 7. Linguagem C 
-- [ ] 8. Linguagem C++
+- [x] 8. Linguagem C++
 - [ ] 9. Linguagem Java
-- [ ] 10. Linguagem C#
-- [ ] 11. Linguagem Python
+- [x] 10. Linguagem C#
+- [x] 11. Linguagem Python
 
 ## 🛠️ Tecnologias
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
